@@ -1,0 +1,296 @@
+@media only screen and (max-width: 1024px) {
+    header{
+    display: block;
+}
+header .phonemenu{
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+}
+header .phonemenu button{
+    display: block;
+    color: white;
+    height: 36px;
+    width: 36px;
+    margin-top: 42px;
+    background: #0000008c;
+    border: black;
+}
+header .phonemenu{
+    font-size: 39px;
+    height: 50px;
+    color: white;
+    padding-top: 10px;
+    height: 100px;
+ 
+}
+header .phonenav{
+    float: right;
+    width: 200px;
+    display: none;
+}
+header .phonenav .nav1{
+    height: 270px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header .phonenav .nav1 ul{
+    padding-left: 0px;
+}
+.social {
+    padding-top: 10px;
+    text-align: center;
+}
+
+header .active{
+    display: block;
+    background: none;
+}   
+.nav1 ul li{
+        display: block;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+        animation: menu 1s ease-in-out forwards;
+    }
+
+@keyframes menu{
+    0% {opacity: 0;
+        transform: rotateX(-90deg);
+    }
+    60% {
+        transform: rotateX(50deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+
+}
+.nav1 ul li a:hover{
+    border: 0px;
+}
+.nav1 ul li:hover{
+    border-bottom: 2px solid yellow;    
+}   
+  header img{
+  	padding-top: 2%;
+  }
+.bg1 div p{
+	font-size: 65px;
+}
+.bg2 div article {
+	margin-left: 0px;
+    margin-right: 5%;
+
+}
+.bg2 div img {
+	margin-bottom: 10%;
+}
+
+.bg3 div article{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bg4 section{
+     width: 80%;
+}
+.bg6 {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.bg6 .images{
+    padding: 0;
+    width: 80%;
+    text-align: center;
+}
+.bg6 .reg {
+    padding-right: 0;
+    width: 80% !important;
+}
+.bg6 .reg2{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+
+.bg1 div p{
+	font-size: 45px;
+}
+.bg2 {
+    flex-direction: column;
+}
+.bg2 div{
+    margin: 0;
+    width: 80% !important;
+}
+.bg2 div article{
+    margin: 0;
+}
+
+.bg3 div{
+	margin-left: 20%;
+    margin-right: 20%;
+}
+.bg6 .images img{
+	display: none;
+}
+.reg2 section i{
+	left: 139px;
+}
+.bg6 button{
+	margin-top: 2%;
+    height: 34px;
+    width: 154px;
+    font-size: 15px;
+}
+.bg6 .reg2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer div{
+	flex-direction: column;
+    align-items: center;
+}
+footer div section{
+    width: 80%;
+}
+
+}
+@media only screen and (max-width: 425px){
+    /*.bg2 .dish{
+    	display: none;
+    }*/
+    .bg6 .images{
+    	display: none;
+    }
+    .bg1 div p{
+    	font-size: 25px;
+    }
+    .bg1 .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 130px;
+        padding: 0;
+
+    }
+    .bg1 .button .bt{
+        width: 80%;
+    }
+    .bg3 div{
+    	margin-left: 10%;
+        margin-right: 10%;
+    }
+    .bg5 div{
+    	margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 40px;
+        margin-bottom: 40%;
+        height: 600px;
+    }
+    .bg5 div .prev{
+    	top:300px;
+    }
+    .bg5 div .next{
+    	top:300px;
+    }
+    .bg5 div .mySlides{
+    	padding-left: 10%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .bg6 form{
+    	padding-left: 5%;
+    }
+      header .phonenav {
+    	width: 150px;
+    }
+    header .phonenav .nav1 {
+    	padding: 0px;
+    	height: 230px;
+    }
+    header .phonenav .nav1 ul{
+    	margin: 0px;
+    }
+    header .phonenav .nav1 ul li a{
+    	font-size: 15px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .bg1 div{
+        margin: 0 10%;
+    }
+    .bg3 div{
+    	margin-left: 5%;
+        margin-right: 5%;
+    }
+    .bg4 div{
+    	width: 350px;
+        font-size: 13px;
+    }
+    .bg5 div .mySlides{
+    	display: block;
+        padding-left: 5%;
+        font-size: 15px;
+    }
+    .bg5 div .mySlides article{
+    	padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+@media only screen and (max-width: 320px){
+	
+    .bg2 div p{
+        font-size: 30px;
+    }
+	.bg3 div .wow{
+		width: 70px;
+		height: 70px;
+	}
+	.bg4 div{
+		width: 300px;
+	}
+	.bg4 div section{
+		font-size: 12px;
+        padding-left: 5%;
+        padding-right: 5%
+	}
+	.bg4 div section div{
+		font-size: 12px;
+	}
+	.bg4 div section .salads p{
+		font-size: 14px;
+	}
+	.bg4 div section p{
+		font-size: 14px;
+	}
+	.bg5 div{
+		height: 500px;
+        margin-bottom: 40px;
+	}
+	.bg5 div .mySlides{
+		line-height: 23px;
+        font-size: 12px;
+        height: 350px;
+	}
+	.bg5 div .prev{
+    	top:200px;
+    }
+    .bg5 div .next{
+    	top:200px;
+    }
+
+}
